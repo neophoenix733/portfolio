@@ -62,6 +62,10 @@ header {
    z-index: 990;
 }
 
+.twocolumns right-cols {
+
+}
+
 #neo {
    position:relative;
    bottom:35px;
@@ -732,6 +736,11 @@ ul.features li:nth-child(even) { }
    text-align: center;
 }
 
+/* #testimonials {
+   background-image:url('../images/green2.png');
+   background-repeat:no-repeat;
+} */
+
 
 /* ------------------------------------------------------------------ */
 /* j. Footer
@@ -786,9 +795,15 @@ footer h3:before {
    color: #738291;
    display: block;
 }
-footer h3.address:before { content: "\f041"; }
-footer h3.social:before { content: "\f0c0"; }
-footer h3.contact:before { content: "\f0e0"; }
+footer h3.address:before { 
+   content: "\f041";
+    }
+footer h3.social:before { 
+   content: "\f0c0";
+    }
+footer h3.contact:before {
+   content: "\f0e0";
+  }
 
 footer ul {
    margin: 0;
@@ -808,7 +823,15 @@ footer .copyright {
    margin: 0;
    padding: 0 18px;
    clear: both;
+   text-align:center;
 }
+
+footer .columns {
+   position:relative;
+   left:10em;
+}
+
+
 
 /* Go To Top Button */
 #go-top {
