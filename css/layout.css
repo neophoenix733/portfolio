@@ -303,8 +303,10 @@ ul#nav li.current a { color: #fff; }
    background: #fff;
    border: 1px solid #E6E6E6;
    text-align: center;
-   margin-bottom: 36px;
+   margin-bottom: 0px;
 }
+
+
 .plan-title {
   	font: 15px/30px 'montserrat-regular', sans-serif;
   	padding: 30px 20px 6px 20px;
@@ -315,7 +317,7 @@ ul#nav li.current a { color: #fff; }
 }
 .plan-title .fa {
   	display: block;
-  	margin-bottom: 6px;
+  	margin-bottom: 0px;
    font-size: 26px;
 }
 .plan-price {
