@@ -79,7 +79,7 @@
    /* Subscribe Section
    ------------------------------------------------------------------- */
    #subscribe h1 { margin-bottom: 18px; }
-   #mc_embed_signup input[type="submit"] { width: 46%; }
+   #mc_embed_signup input[type="submit"] { width: 100%; }
    #mc_embed_signup input[type="email"] { width: 46%; }
 
    /* Footer

@@ -831,6 +831,7 @@ footer .copyright {
 footer .columns {
    position:relative;
    left:10em;
+   bottom:20px;
 }
 
 
